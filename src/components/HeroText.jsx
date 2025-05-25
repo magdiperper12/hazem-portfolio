@@ -16,7 +16,7 @@ const HeroText = () => {
 			<div className='z-10 flex flex-col items-center space-y-6'>
 				{/* Heading */}
 				<motion.h1
-					className='text-4xl font-bold text-white md:text-6xl'
+					className='text-4xl font-bold text-white/90 md:text-6xl'
 					variants={variants}
 					initial='hidden'
 					animate='visible'
@@ -32,7 +32,7 @@ const HeroText = () => {
 					transition={{ delay: 0.8 }}>
 					<FlipWords
 						words={words}
-						className='text-5xl font-black text-white md:text-7xl'
+						className='text-5xl font-black text-white/60 md:text-7xl'
 					/>
 				</motion.div>
 
@@ -67,7 +67,7 @@ const HeroText = () => {
 
 				{/* Social Icons */}
 				<motion.div
-					className='flex space-x-6 pt-6 text-white text-2xl'
+					className='flex space-x-6 pt-6 text-white  text-2xl'
 					variants={variants}
 					initial='hidden'
 					animate='visible'
@@ -78,7 +78,7 @@ const HeroText = () => {
 							key={index}>
 							<img
 								src={social.icon}
-								className='w-5 h-5'
+								className='w-8 h-8'
 								alt={social.name}
 							/>
 						</a>

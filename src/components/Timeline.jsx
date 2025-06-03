@@ -3,7 +3,7 @@
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
 
-export const Timeline = ({ data }) => {
+export const Timeline = ({ data, title }) => {
 	const ref = useRef(null);
 	const containerRef = useRef(null);
 	const [height, setHeight] = useState(0);
@@ -17,7 +17,7 @@ export const Timeline = ({ data }) => {
 
 	const { scrollYProgress } = useScroll({
 		target: containerRef,
-		offset: ['start 10%', 'end 50%'],
+		offset: ['start 60%', 'end 10%'],
 	});
 
 	const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);
@@ -27,7 +27,7 @@ export const Timeline = ({ data }) => {
 		<div
 			className='c-space section-spacing'
 			ref={containerRef}>
-			<h2 className='text-heading'>My Work Experience</h2>
+			<h2 className='text-heading'>My {title}</h2>
 			<div
 				ref={ref}
 				className='relative pb-20'>
@@ -41,8 +41,7 @@ export const Timeline = ({ data }) => {
 							</div>
 							<div className='flex-col hidden gap-2 text-xl font-bold md:flex md:pl-20 md:text-4xl text-neutral-300'>
 								<h3>{item.date}</h3>
-								<h3 className='text-3xl text-neutral-400'>{item.title}</h3>
-								<h3 className='text-3xl text-neutral-500'>{item.job}</h3>
+								<h3 className='text-3xl text-neutral-400'>{item.job}</h3>
 							</div>
 						</div>
 

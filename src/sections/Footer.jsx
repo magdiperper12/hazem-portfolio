@@ -21,7 +21,16 @@ const Footer = () => {
 					</a>
 				))}
 			</div>
-			<p>© 2025 Magdi PerPer. All rights reserved.</p>
+			<p>
+				© 2025{' '}
+				<a
+					href='https://www.linkedin.com/in/magdi-perper-95b132343/'
+					target='_blanck'
+					className='text-white'>
+					Magdi PerPer
+				</a>{' '}
+				. All rights reserved.
+			</p>
 		</section>
 	);
 };

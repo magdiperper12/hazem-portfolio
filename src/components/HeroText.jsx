@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { mySocials } from '../constants';
 
 const HeroText = () => {
-	const words = ['Instructor', 'Engineer', 'AI'];
+	const words = ['Instructor', 'DESIGNER', 'UI UX '];
 	const variants = {
 		hidden: { opacity: 0, y: 40 },
 		visible: { opacity: 1, y: 0 },
@@ -21,7 +21,7 @@ const HeroText = () => {
 					initial='hidden'
 					animate='visible'
 					transition={{ delay: 0.5 }}>
-					Hi, I am Mohamed Fawzi
+					Hi, I am Hazem Hany ghazaly
 				</motion.h1>
 
 				{/* FlipWords */}
@@ -43,7 +43,7 @@ const HeroText = () => {
 					initial='hidden'
 					animate='visible'
 					transition={{ delay: 1.1 }}>
-					Creating AI Solutions and Modern Web Experiences
+					Creating UI UX DESIGNER
 				</motion.p>
 
 				{/* Buttons */}

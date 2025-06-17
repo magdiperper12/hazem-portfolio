@@ -89,7 +89,7 @@ const Contact = () => {
 							name='name'
 							type='text'
 							className='field-input field-input-focus'
-							placeholder='magdi perper'
+							placeholder='your name'
 							autoComplete='name'
 							value={formData.name}
 							onChange={handleChange}
@@ -107,7 +107,7 @@ const Contact = () => {
 							name='email'
 							type='email'
 							className='field-input field-input-focus'
-							placeholder='magdiperper0123@email.com'
+							placeholder='exemail@email.com'
 							autoComplete='email'
 							value={formData.email}
 							onChange={handleChange}

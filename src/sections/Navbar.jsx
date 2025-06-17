@@ -17,25 +17,12 @@ function Navigation() {
 					About
 				</a>
 			</li>
-			<li className='nav-li'>
-				<a
-					className='nav-link'
-					href='#work'>
-					Work
-				</a>
-			</li>
+
 			<li className='nav-li'>
 				<a
 					className='nav-link'
 					href='#Experiences'>
 					Experiences
-				</a>
-			</li>
-			<li className='nav-li'>
-				<a
-					className='nav-link'
-					href='#Testimonial'>
-					Testimonial
 				</a>
 			</li>
 
@@ -58,7 +45,7 @@ const Navbar = () => {
 					<a
 						href='/'
 						className='text-xl font-bold transition-colors text-neutral-400 hover:text-white'>
-						Mohamed Fawzy
+						Hazem ghazaly
 					</a>
 					<button
 						onClick={() => setIsOpen(!isOpen)}

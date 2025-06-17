@@ -27,7 +27,7 @@ const ParallaxBackground = () => {
 	});
 
 	return (
-		<section className='absolute inset-0 bg-black/40'>
+		<section className='absolute inset-0 '>
 			<div className='relative h-screen overflow-hidden'>
 				{/* السماء */}
 				<div

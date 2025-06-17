@@ -1,6 +1,5 @@
 import HeroText from '../components/HeroText';
-import ParallaxBackground from '../components/ParallaxBackground';
-
+import ParallaxBackground from '../components/parallaxBackground';
 const Hero = () => {
 	return (
 		<section
@@ -17,10 +16,8 @@ const Hero = () => {
 						className='w-full h-auto object-cover z-50'
 					/>
 				</div>
-				<div className=''>
-					<ParallaxBackground />
-				</div>
 			</div>
+			<ParallaxBackground />
 		</section>
 	);
 };

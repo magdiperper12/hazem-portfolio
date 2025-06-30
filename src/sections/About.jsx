@@ -17,7 +17,7 @@ const About = () => {
 						className='absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]'
 					/>
 					<div className='z-10'>
-						<p className='headtext'>Hi, I'm Hazem Hany ghazaly</p>
+						<p className='headtext'>Hi,my name is Hazem Hany ghazaly</p>
 						<p className=' text-white/70 font-bold '>UI UX DESIGNER</p>
 						<p className='subtext'>
 							Over the last 1 years, I developed my frontend and backend dev
@@ -35,15 +35,13 @@ const About = () => {
 							In my year at AIOT GROUP, an AIoT company, my UI/UX objective has
 							been to enhance user experience across our product ecosystem. This
 							involved improving the usability and accessibility of our AIoT
-							applications, increasing user engagement, and contributing to the
-							overall success of our products by creating intuitive and
-							efficient interfaces..
+							applications.
 						</p>
 					</div>
 				</div>
 				{/* Grid 3 */}
 				<div className='grid-default-color grid-3 space-y-7'>
-					<div className='z-10 w-[50%] space-y-2'>
+					<div className='z-10 w-[100%] space-y-2'>
 						<p className='headtext text-blue-300'>LANDUAGES</p>
 						<h2 className='text-base text-white flex items-center gap-3'>
 							ARABIC{' '}
@@ -56,7 +54,7 @@ const About = () => {
 							<span className='text-sm text-gray-300 '>Secound language</span>
 						</h2>
 					</div>
-					<div className='z-10 w-[50%] space-y-2'>
+					<div className='z-10 w-[100%] space-y-2'>
 						<p className='headtext text-blue-300'>Education</p>
 						<h2 className='text-base text-white flex items-center gap-3'>
 							2023-07-13

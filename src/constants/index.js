@@ -1,18 +1,18 @@
 export const mySocials = [
 	{
 		name: 'WhatsApp',
-		href: '',
+		href: 'https://wa.me/qr/K3SSZGM5XH4BI1',
 		icon: '/assets/socials/whatsApp.svg',
 	},
 
 	{
 		name: 'Linkedin',
-		href: '/',
+		href: 'https://wa.me/qr/K3SSZGM5XH4BI1',
 		icon: '/assets/socials/linkedIn.svg',
 	},
 	{
 		name: 'Instagram',
-		href: '/',
+		href: 'https://wa.me/qr/K3SSZGM5XH4BI1',
 		icon: '/assets/socials/instagram.svg',
 	},
 ];

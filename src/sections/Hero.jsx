@@ -29,8 +29,9 @@ const Hero = () => {
 	});
 	return (
 		<section
-			className='flex items-start justify-center min-h-screen   c-space overflow-hidden  '
+			className='flex items-start justify-center min-h-screen lg:h-screen    c-space lg:overflow-hidden  '
 			id='home'>
+			<div className='bg-black/50 lg:bg-black/30 absolute top-0 left-0 h-screen w-full'></div>
 			<div className='w-full flex flex-col lg:flex-row justify-center items-center'>
 				<div className='w-full lg:w-1/2 '>
 					<HeroText />
@@ -39,7 +40,7 @@ const Hero = () => {
 					<img
 						src='/assets/hazem-removebg.png'
 						alt='e'
-						className='w-full h-auto object-cover z-50'
+						className='w-full h-auto  object-cover z-50'
 					/>
 				</div>
 			</div>
